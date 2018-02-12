@@ -1,0 +1,57 @@
+<script type="text/javascript">
+    function total()
+        {
+            var select_value1 = document.querySelector('#Price').value
+            var select_value2 = document.querySelector('#Commodity').value
+            var select_value3 = document.querySelector('#slct1').value
+            var select_value4 = document.querySelector('#slct2').value
+            var select_value5 = document.querySelector('#slct3').value
+            var select_value6 = document.querySelector('#from_date').value
+            var select_value7 = document.querySelector('#to_date').value
+
+            var select_value8 = document.querySelector('#Price').value
+            var select_value9 = document.querySelector('#Commodity').value
+            var select_value10 = document.querySelector('#slct1').value
+            var select_value11 = document.querySelector('#slct2').value
+            var select_value12 = document.querySelector('#slct3').value
+            var select_value13 = document.querySelector('#from_date').value
+            var select_value14 = document.querySelector('#to_date').value
+
+            var str01='Price=';
+            var str02=select_value1;
+            var str03='&Tx_Commodity=';
+            var str04=select_value2;
+            var str05='&Tx_State=';
+            var str06=select_value3;
+            var str07='&Tx_District=';
+            var str08=select_value4;
+            var str09='&Tx_Market=';
+            var str010=select_value5;
+            var str011='&DateFrom=';
+            var str012=select_value6;
+            var str013='&DateTo=';
+            var str014=select_value7;
+
+            var str1= '&Fr_Date=' ;
+            var str2=select_value13;
+            var str3= '&To_Date=';
+            var str4=select_value14;
+            var str5= '&Tx_Trend=' ;
+            var str6=select_value8;
+            var str7='&Tx_CommodityHead=';
+            var str8=select_value9;
+            var str9='&Tx_StateHead=';
+            var str10=select_value10;
+            var str11='&Tx_DistrictHead=';
+            var str12=select_value11;
+            var str13='&Tx_MarketHead=';
+            var str14=select_value12;
+
+            var url="http://agmarknet.gov.in/SearchCmmMkt.aspx?";
+
+            var newr = url+str01+str02+str03+str04+str05+str06+str07+str08+str09+str010+str011+str012+str013+str014+str1+str2+str3+str4+str5+str6+str7+str8+str9+str10+str11+str12+str13+str14;
+
+            window.open(newr);
+
+        }
+</script>
